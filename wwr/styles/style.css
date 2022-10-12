@@ -118,7 +118,6 @@ h2 {
     color: black;
 }
 
-
 footer p a {
     text-align: center;
     color: white;
@@ -155,6 +154,7 @@ footer p {
 
 footer .social img {
     padding-top: 15px;
+    width: 5%;
 }
 
 .card-img {

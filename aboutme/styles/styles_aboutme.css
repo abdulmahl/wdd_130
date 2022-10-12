@@ -1,0 +1,10 @@
+body, h1, img {
+    text-align: center;
+    color: #14213d;
+    padding: 10px 5px;
+}
+
+img {
+    border: 4px solid #D4AC0D;
+}
+

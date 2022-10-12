@@ -46,7 +46,7 @@ nav a:hover {
 
 .book {
     text-align: center;
-    color: #5E0B15;
+    color: #14213d;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -102,7 +102,7 @@ footer {
 }
 
 h4 {
-    color: #5E0B15;
+    color: #14213d;
 }
 
 .msg h2 {
@@ -148,7 +148,7 @@ footer p {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    color: #5E0B15;
+    color: #14213d;
     margin: 200px 0;
 }
 

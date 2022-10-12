@@ -41,7 +41,7 @@ header {
 
 nav a:hover {
     background-color: aliceblue;
-    color: black;
+    color: #14213d;
 }
 
 .book {
@@ -57,7 +57,7 @@ nav a:hover {
 
 .join {
     text-align: center;
-    color: black;
+    color: #14213d;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -106,7 +106,7 @@ h4 {
 }
 
 .msg h2 {
-    color: black;
+    color: #14213d;
 }
 
 h2 {
@@ -115,7 +115,7 @@ h2 {
 
 .msg p {
     padding-bottom: 15px;
-    color: black;
+    color: #14213d;
 }
 
 footer p a {
@@ -126,7 +126,7 @@ footer p a {
     
 footer p a:hover {
     background-color: aliceblue;
-    color: black;
+    color: #14213d;
 }
 
 .logo {
@@ -155,6 +155,11 @@ footer p {
 footer .social img {
     padding-top: 15px;
     width: 5%;
+}
+
+footer .social img:hover {
+    background-color: aliceblue;
+    padding: 0%;
 }
 
 .card-img {

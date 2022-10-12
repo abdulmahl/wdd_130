@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 1px 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -19,12 +22,17 @@ nav a {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
+
 }
 
 body {
     background-color: #fcfbfb;
     max-width: 1600px;
-    margin: 0 auto;
+    /* font-family: Raleway, Arial, sans-serif; */
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -40,17 +48,26 @@ nav a:hover {
     text-align: center;
     color: #5E0B15;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+
 }
 
 .join {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .book:hover {
     background-color: #14213d;
-    color: white
+    color: white   
 }
 
 .join:hover {
@@ -61,18 +78,27 @@ nav a:hover {
 #background {
     background-color: #14213d;
     height: 725px;
+    margin: 150px 0;
 }
 
 .msg {
-    background-color:#D4AC0D 
+    margin: 150px 0;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color:#D4AC0D
 }
 
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: #14213d;
 }
 
 .home-title {
-    color: #5E0B15;
+    margin-top: 10px;
+    font-family: "Rock Salt", "Brady Hand", Sans-Serif;
+    font-size: 2em;
+    color: #D4AC0D;
 }
 
 h4 {
@@ -83,7 +109,12 @@ h4 {
     color: black;
 }
 
+h2 {
+    margin: 0 0;
+}
+
 .msg p {
+    padding-bottom: 15px;
     color: black;
 }
 
@@ -103,8 +134,13 @@ footer p a:hover {
     width: 80px;
 }
 
+#logo link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -112,6 +148,19 @@ footer p {
     color: white;
 }
 
-.rivers-card h2, .camping-card h2, .rapids-card h2 {
+.rivers-card, .camping-card, .rapids-card {
     color: #5E0B15;
+    margin: 200px 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #D4AC0D;
+}
+
+main section img {
+    box-sizing: border-box;
 }

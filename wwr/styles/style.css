@@ -22,10 +22,7 @@ header {
 }
 a {
     text-decoration: none;
-    color: orange;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 5px;
+    color: #f7c708;
 }
 
 nav {
@@ -34,7 +31,7 @@ nav {
 }
 
 nav a:hover {
-    background-color: #14213d;
+    text-decoration: none;
     color: antiquewhite;
 }
 
@@ -166,17 +163,14 @@ footer {
     align-items: center;
 
 }
-
+footer a {
+    color: orange;
+    text-decoration: none;
+}
 footer p {
+    text-align: center;
     font-size: 1.2em;
     color: antiquewhite;
-}
-footer p a {
-    color: orange;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 5px;
-
 }
 footer p a:hover {
     background-color: #D4AC0D;

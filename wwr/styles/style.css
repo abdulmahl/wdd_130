@@ -18,7 +18,7 @@ nav {
 }
 
 nav a:hover {
-    color: white;
+    color: antiquewhite;
 }
 #hero {
     display: grid;
@@ -33,7 +33,7 @@ nav a:hover {
     margin-top: 100px
 }
 #hero-msg h4 {
-    color: white;
+    color: antiquewhite;
 }
 
 #hero-box {
@@ -65,7 +65,7 @@ header {
 
 .book {
     text-align: center;
-    color: #14213d;
+    color: antiquewhite;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -85,8 +85,8 @@ header {
 }
 
 .book:hover {
-    background-color: #D4AC0D;
-    color: white   
+    background-color: #14213d;
+    color: antiquewhite;   
 }
 
 .join:hover {
@@ -151,15 +151,16 @@ footer {
 
 }
 footer a {
-    color: antiquewhite;
-    text-decoration: underline;
+    color: #D4AC0D;
+    text-decoration: none;
 }
 footer p {
     font-size: 1.2em;
     color: antiquewhite;
 }
 footer p a:hover {
-    text-decoration: none;
+    color: antiquewhite;
+    
 }
 
 .logo {

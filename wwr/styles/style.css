@@ -5,50 +5,8 @@
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    margin-top: 20px;
-    color: #D4AC0D;
-    
-
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a:hover {
-    color: antiquewhite;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-#hero-msg {
-    text-align: center;
-    width: 60%;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px
-}
-#hero-msg h4 {
-    color: antiquewhite;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-main section {
-    text-align: center;
-    box-sizing: border-box;
-
-}
-
 body {
-    background-color: #fcfbfb;
+    background-color: antiquewhite;
     max-width: 1600px;
     /* font-family: Raleway, Arial, sans-serif; */
     font-size: 22px;
@@ -58,10 +16,65 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto; 
+    grid-template-columns: 150px auto;
     background-color: #14213d;
 }
+a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: #D4AC0D;
+}
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: antiquewhite;
+}
+
+#logo link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-box img {
+    width: 100%;
+}
+
+#hero-msg {
+    text-align: center;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg h4 {
+    color: #D4AC0D;
+}
+
+main section {
+    text-align: center;
+    box-sizing: border-box;
+}
 
 .book {
     text-align: center;
@@ -71,7 +84,11 @@ header {
     margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
+}
 
+.book:hover {
+    background-color: #D4AC0D;
+    color: antiquewhite;   
 }
 
 .join {
@@ -82,11 +99,6 @@ header {
     margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
-}
-
-.book:hover {
-    background-color: #14213d;
-    color: antiquewhite;   
 }
 
 .join:hover {
@@ -163,16 +175,6 @@ footer p a:hover {
     
 }
 
-.logo {
-    width: 80px;
-}
-
-#logo link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -221,4 +223,47 @@ footer p a:hover {
 }
 main section img {
     box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }

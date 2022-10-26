@@ -6,7 +6,7 @@ body, h1 {
 
 img {
     border: 4px solid #D4AC0D;
-    width: 10%;
+    width: 1fr;
     height: 200px;
 }
 

@@ -22,7 +22,10 @@ header {
 }
 a {
     text-decoration: none;
-    color: #f7c708;
+    color: orange;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 nav {
@@ -31,7 +34,7 @@ nav {
 }
 
 nav a:hover {
-    text-decoration: none;
+    background-color: #14213d;
     color: antiquewhite;
 }
 

@@ -22,7 +22,9 @@ header {
 }
 a {
     text-decoration: none;
-    color: #f7c708;
+    color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 nav {
@@ -31,6 +33,7 @@ nav {
 }
 
 nav a:hover {
+    background-color: #14213d;
     text-decoration: none;
     color: antiquewhite;
 }
@@ -81,14 +84,14 @@ main section {
     text-align: center;
     color: orange;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 5px 10px;
     margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
 }
 
 .book:hover {
-    background-color: #14213d;
+    background-color: #D4AC0D;
     color: antiquewhite;   
 }
 
@@ -96,7 +99,7 @@ main section {
     text-align: center;
     color: #14213d;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 5px 10px;
     margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
@@ -164,6 +167,8 @@ footer {
 
 }
 footer a {
+    border-radius: 5px;
+    padding: 5px 0px;
     color: orange;
     text-decoration: none;
 }

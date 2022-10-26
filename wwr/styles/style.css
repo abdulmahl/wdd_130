@@ -159,7 +159,7 @@ footer p {
     color: antiquewhite;
 }
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .logo {

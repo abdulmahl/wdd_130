@@ -152,7 +152,7 @@ footer {
 }
 footer a {
     color: antiquewhite;
-    text-decoration: none;
+    text-decoration: underline;
 }
 footer p {
     font-size: 1.2em;

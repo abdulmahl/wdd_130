@@ -166,15 +166,20 @@ footer {
     align-items: center;
 
 }
-footer a {
-    color: #D4AC0D;
-    text-decoration: none;
-}
+
 footer p {
     font-size: 1.2em;
     color: antiquewhite;
 }
+footer p a {
+    color: orange;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
 footer p a:hover {
+    background-color: #D4AC0D;
     color: antiquewhite;
     
 }

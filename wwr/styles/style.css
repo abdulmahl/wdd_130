@@ -17,12 +17,12 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #14213d;
+    opacity: .9;
+    transform: scale(1.0);
 }
 a {
     text-decoration: none;
-    margin-top: 20px;
-    color: #D4AC0D;
+    color: #f7c708;
 }
 
 nav {
@@ -31,10 +31,11 @@ nav {
 }
 
 nav a:hover {
+    text-decoration: none;
     color: antiquewhite;
 }
 
-#logo link {
+a, #logo link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -78,7 +79,7 @@ main section {
 
 .book {
     text-align: center;
-    color: antiquewhite;
+    color: orange;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -87,7 +88,7 @@ main section {
 }
 
 .book:hover {
-    background-color: #D4AC0D;
+    background-color: #14213d;
     color: antiquewhite;   
 }
 

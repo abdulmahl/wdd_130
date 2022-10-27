@@ -2,21 +2,21 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto+Mono:ital,wght@1,300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #7779ED;
-  --secondary-color: #3a86ff;
-  --accent1-color: #5E0B15;
-  --accent2-color: white;
+  --primary-color: #0A014F;
+  --secondary-color: #FFAE03;
+  --accent1-color: #4F000B;
+  --accent2-color: #716969;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Advent Pro";
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+  --heading-font: "Fuzzy Bubbles";
+  --paragraph-font: Roboto Mono:ital, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #5E0B15;  /* headlines on a white background */ 
+  --headline-color-on-white: #0A014F;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #92140c; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -58,6 +58,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
+  /* background-color: #0A014F; */
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {

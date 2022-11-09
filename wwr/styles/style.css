@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-/* Home page (Home) css styling */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -236,7 +235,8 @@ main section img {
 }
 
 
-/* Rivers page (Page2) css styling */
+
+
 
 #rivers-hero {
     display: grid;
@@ -325,7 +325,6 @@ main section img {
 
 
 
-/* Home page  */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -366,11 +365,8 @@ main section img {
     footer {
         margin-top: 25px;
     }
-}
 
 
-/* Rivers page */
-@media screen and (max-width: 900px) {
     #rivers-hero, .rivers-home-grid {
         display: block;
         height: auto;
@@ -396,8 +392,9 @@ main section img {
         color: #6f7364;
     }
     .rivers1, .rivers-msg1 { 
+        width: 80%;
+        display: block;
         margin: 0 auto;
-        width: none;
     }
     .rivers1 {
         margin-top: 25px;

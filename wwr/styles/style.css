@@ -237,7 +237,7 @@ main section img {
 
 
 
-
+/* Rivers Page */
 #rivers-hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -366,7 +366,7 @@ main section img {
         margin-top: 25px;
     }
 
-
+/* Rivers Page Mobile Styling */
     #rivers-hero, .rivers-home-grid {
         display: block;
         height: auto;

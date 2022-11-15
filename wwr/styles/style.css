@@ -22,7 +22,7 @@ header {
     transform: scale(1.0);
 }
 a {
-    text-decoration: none;
+    text-decoration:none;
     color: orange;
     padding: 5px 10px;
     border-radius: 5px;
@@ -39,7 +39,7 @@ nav a:hover {
     color: antiquewhite;
 }
 
-a, #logo link {
+a, #logo-link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;

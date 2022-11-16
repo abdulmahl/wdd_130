@@ -39,10 +39,10 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
-  /* border-radius: 300px;
+.logo {
+  border-radius: 300px;
   width: 25%;
-  border: 10px solid #396E94; */
+  border: 10px solid #396E94;
   display: block;
   margin: 0 auto;
 }

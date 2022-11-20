@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-/* Home page css styling. */
+/* Home page (index.html) css styling. */
 #content {
   max-width: 1500px;
   margin: 0 auto;
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #716969;
   max-width: 1600px;
   font-size: 22px;
   margin: 0;
@@ -22,7 +22,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: rgb(225, 84, 9);
+  color: #396E94;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -33,9 +33,9 @@ nav {
 }
 
 nav a:hover {
-  background-color: black;
+  background-color: #FFAE03;
   text-decoration: none;
-  color: #D4AC;
+  color: #0A014F;
 }
 
 a, #logo-link {
@@ -67,7 +67,7 @@ a, #logo-link {
   margin-top: 10px;
   font-family: "Rock Salt", "Brady Hand", Sans-Serif;
   font-size: 2em;
-  color: #D4AC;
+  color: #1789FC;
 }
 
 #hero-msg {
@@ -79,7 +79,7 @@ a, #logo-link {
 }
 
 #hero-msg h4 {
-  color: #D4AC;
+  color: #716969;
 }
 
 .home-grid {
@@ -96,8 +96,8 @@ a, #logo-link {
   width: 100%;
   border-radius: 8px;
   margin: 150px 100px;
-  border: 10px solid rgb(225, 84, 9);
-  box-shadow: 5px 5px 10px #D4AC;
+  border: 10px solid #716969;
+  box-shadow: 5px 5px 10px #FFAE03;
 
 }
 .section-card {
@@ -109,16 +109,16 @@ a, #logo-link {
   opacity: .9;
   transform: scale(1.5);
   text-align: center;
-  color: orange;
-  box-shadow: 5px 5px 10px #D4AC;
+  color: #FFAE03;
+  box-shadow: 5px 5px 10px #FFAE03;
 }
 .section-card h2 {
-  color: rgb(68, 63, 63);
+  color: #716969;
 }
 
 .contactme {
   text-align: center;
-  color: rgb(225, 84, 9);
+  color: #396E94;
   text-decoration: none;
   padding: 5px 10px;
   font-size: 18px;
@@ -126,8 +126,8 @@ a, #logo-link {
 }
 
 .contactme:hover {
-  background-color: #D4AC;
-  color: black;
+  background-color: #FFAE03;
+  color: #0A014F;
 }
 .contactme-bottom  {
   color: orange;
@@ -135,9 +135,9 @@ a, #logo-link {
   margin: 100px 200px;
 }
 .contactme-bottom:hover {
-  background-color: black;
+  background-color: #FFAE03;
   text-decoration: none;
-  color: #D4AC;
+  color: #0A014F;
   padding-top: 0;
   
 }
@@ -150,7 +150,7 @@ a, #logo-link {
 }
 
 #background {
-  background-color: rgb(225, 84, 9);
+  background-color: #FFAE03;
   height: 725px;
   grid-column: 1/11;
   grid-row: 8/10;
@@ -200,13 +200,13 @@ footer p {
 footer a {
   border-radius: 5px;
   padding: 5px 0px;
-  color: orange;
+  color: #FFAE03;
   text-decoration: none;
   text-align: center;
 }
 footer p a:hover {
-  color: #D4AC;
-  background-color: black;
+  color: #0A014F;
+  background-color: #FFAE03;
 }
 
 .social-profiles {

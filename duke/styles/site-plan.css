@@ -62,8 +62,8 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: #0A014F;
-  /* background-color: var(--paragraph-background-color); */
+  /* background-color: #0A014F; */
+  background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -131,8 +131,8 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  /* background-color: #396E94; */
-  background-color: var(--nav-hover-background-color);
+  background-color: #396E94;
+  /* background-color: var(--nav-hover-background-color); */
 }
 
 .sitemap {

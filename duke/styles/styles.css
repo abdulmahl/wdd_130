@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lora&family=Roboto+Mono:wght@300&display=swap');
+
 
 /* Home page (index.html) css styling. */
 #content {
@@ -7,7 +8,7 @@
 }
 
 body {
-  background-color: #716969;
+  background-color: #afadad;
   max-width: 1600px;
   font-size: 22px;
   margin: 0;
@@ -65,8 +66,8 @@ a, #logo-link {
 
 .home-title {
   margin-top: 10px;
-  font-family: "Rock Salt", "Brady Hand", Sans-Serif;
-  font-size: 2em;
+  font-family: "Caveat", "Brady Hand", Sans-Serif;
+  font-size: 3em;
   color: #1789FC;
 }
 
@@ -79,7 +80,8 @@ a, #logo-link {
 }
 
 #hero-msg h4 {
-  color: #716969;
+  color: #1f1e1e;
+ 
 }
 
 .home-grid {
@@ -94,26 +96,27 @@ a, #logo-link {
 
 .home-grid-img {
   width: 100%;
-  border-radius: 8px;
   margin: 150px 100px;
-  border: 10px solid #716969;
-  box-shadow: 5px 5px 10px #FFAE03;
+  border: 10px solid #396E94;
+  box-shadow: 5px 5px 10px #0A014F;
 
 }
 .section-card {
   grid-column: 6/9;
   grid-row: 2/3;
   padding: 25px 25px;
-  background-color: rgb(225, 84, 9);
+  background-color: #396E94;
   margin-top: 50px;
   opacity: .9;
   transform: scale(1.5);
   text-align: center;
   color: #FFAE03;
-  box-shadow: 5px 5px 10px #FFAE03;
+  box-shadow: 5px 5px 10px #0A014F;
 }
 .section-card h2 {
-  color: #716969;
+  color: #1f1e1e;
+   font-family: "Caveat", "Brady Hand", Sans-Serif;
+  /* font-size: 2em; */
 }
 
 .contactme {
@@ -135,7 +138,7 @@ a, #logo-link {
   margin: 100px 200px;
 }
 .contactme-bottom:hover {
-  background-color: #FFAE03;
+  background-color: #396E94;
   text-decoration: none;
   color: #0A014F;
   padding-top: 0;
@@ -150,7 +153,7 @@ a, #logo-link {
 }
 
 #background {
-  background-color: #FFAE03;
+  background-color: #396E94;
   height: 725px;
   grid-column: 1/11;
   grid-row: 8/10;
@@ -189,7 +192,7 @@ h5 {
 }
 
 footer {
-  background-color: rgb(225, 84, 9);
+  background-color: #396E94;
   padding: 45px 50px;
   margin-top: 200px; 
 }

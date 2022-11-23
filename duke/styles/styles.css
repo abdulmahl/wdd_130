@@ -116,7 +116,6 @@ a, #logo-link {
 .section-card h2 {
   color: #1f1e1e;
    font-family: "Caveat", "Brady Hand", Sans-Serif;
-  /* font-size: 2em; */
 }
 
 .contactme {
@@ -166,7 +165,6 @@ a, #logo-link {
   padding: 10px 20px;
   margin-top: 40px;
   text-align: justify;
-  /* background-color: lightseagreen; */
   opacity: .8;
   transform: scale(.9);
   color: black;
@@ -178,12 +176,11 @@ a, #logo-link {
   grid-row: 8/9;
   padding: 10px 30px;
   margin-top: 40px;
-  /* margin: 0 auto; */
   text-align: justify;
-  background-color: lightseagreen;
+  background-color: #FFAE03;
   opacity: 1.9;
   transform: scale(.9);
-  color: #D4AC;
+  color: #afadad;
   box-shadow: 15px 15px 20px black;
 }
 h5 {
@@ -218,4 +215,45 @@ footer p a:hover {
 
 
 
-/* My work css styling. */
+/* 2nd Page (mywork.html) css styling. */
+
+#hero-msg-2nd {
+  text-align: center;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 125px;
+}
+
+#hero-msg-2nd h4 {
+  color: #FFAE03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3rd Page (aboutme.html) css styling. */
+
+
+#hero-msg-3rd {
+  text-align: center;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 125px;
+}
+
+#hero-msg-3rd h4 {
+  color: #1f1e1e;
+}

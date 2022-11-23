@@ -133,7 +133,6 @@ a, #logo-link {
 }
 .contactme-bottom  {
   color: orange;
-  border-radius: none;
   margin: 100px 200px;
 }
 .contactme-bottom:hover {

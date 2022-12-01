@@ -99,7 +99,9 @@ a, #logo-link {
   margin: 150px 100px;
   border: 10px solid #396E94;
   box-shadow: 5px 5px 10px #0A014F;
-
+}
+.home-grid-img:hover {
+  opacity: .6;
 }
 .section-card {
   grid-column: 6/9;
@@ -179,7 +181,7 @@ a, #logo-link {
   background-color: #FFAE03;
   opacity: 1;
   transform: scale(.9);
-  color: #afadad;
+  color: black;
   box-shadow: 15px 15px 20px black;
 }
 h5 {

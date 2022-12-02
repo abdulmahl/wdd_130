@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lora&family=Roboto+Mono:wght@300&display=swap');
 
 
+
+
+/* Color variables */
+:root {
+  --color-dark-blue: #0A014F;
+  --color-yellow: #FFAE03;
+  --color-dark-red: #4F000B;
+  --color-gray: #716969;
+  --color-light-blue1: #1789FC;
+  --color-light-blue2: #396E94;
+  --color-orange: #ffa500;
+  --color-charcoal: #1f1e1e;
+}
 /* Home page (index.html) css styling. */
+
 #content {
   max-width: 1500px;
   margin: 0 auto;
 }
 
 body {
-  background-color: #afadad;
+  background-color: var(--color-gray);
   max-width: 1600px;
   font-size: 22px;
   margin: 0;
@@ -23,7 +37,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: #396E94;
+  color: var(--color-light-blue2);
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -34,9 +48,9 @@ nav {
 }
 
 nav a:hover {
-  background-color: #FFAE03;
+  background-color: var(--color-yellow);
   text-decoration: none;
-  color: #0A014F;
+  color: var(--color-dark-blue);
 }
 
 a, #logo-link {
@@ -68,7 +82,7 @@ a, #logo-link {
   margin-top: 10px;
   font-family: "Caveat", "Brady Hand", Sans-Serif;
   font-size: 3em;
-  color: #1789FC;
+  color: var(--color-light-blue1);
 }
 
 #hero-msg {
@@ -80,7 +94,7 @@ a, #logo-link {
 }
 
 #hero-msg h4 {
-  color: #1f1e1e;
+  color: var(--color-yellow);
  
 }
 
@@ -97,8 +111,8 @@ a, #logo-link {
 .home-grid-img {
   width: 100%;
   margin: 150px 100px;
-  border: 10px solid #396E94;
-  box-shadow: 5px 5px 10px #0A014F;
+  border: 10px solid var(--color-light-blue2);
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
 }
 .home-grid-img:hover {
   opacity: .6;
@@ -107,22 +121,22 @@ a, #logo-link {
   grid-column: 6/9;
   grid-row: 2/3;
   padding: 25px 25px;
-  background-color: #396E94;
+  background-color: var(--color-light-blue2);
   margin-top: 50px;
   opacity: .9;
   transform: scale(1.5);
   text-align: center;
-  color: #FFAE03;
-  box-shadow: 5px 5px 10px #0A014F;
+  color: var(--color-yellow);
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
 }
 .section-card h2 {
-  color: #1f1e1e;
+  color: var(--color-yellow);
    font-family: "Caveat", "Brady Hand", Sans-Serif;
 }
 
 .contactme {
   text-align: center;
-  color: #396E94;
+  color: var(--color-light-blue2);
   text-decoration: none;
   padding: 5px 10px;
   font-size: 18px;
@@ -130,17 +144,17 @@ a, #logo-link {
 }
 
 .contactme:hover {
-  background-color: #FFAE03;
-  color: #0A014F;
+  background-color: var(--color-yellow);
+  color: var(--color-dark-blue);
 }
 .contactme-bottom  {
-  color: orange;
+  color: var(--color-orange);
   margin: 100px 200px;
 }
 .contactme-bottom:hover {
-  background-color: #396E94;
+  background-color: var(--color-light-blue2);
   text-decoration: none;
-  color: #0A014F;
+  color: var(--color-dark-blue);
   padding-top: 0;
   
 }
@@ -153,7 +167,7 @@ a, #logo-link {
 }
 
 #background {
-  background-color: #396E94;
+  background-color: var(--color-light-blue2);
   height: 725px;
   grid-column: 1/11;
   grid-row: 8/10;
@@ -168,8 +182,8 @@ a, #logo-link {
   text-align: justify;
   opacity: .8;
   transform: scale(.9);
-  color: black;
-  box-shadow: 15px 15px 20px black;
+  color: var(--color-charcoal);
+  box-shadow: 15px 15px 20px var(--color-charcoal);
 
 }
 .message-right {
@@ -178,19 +192,19 @@ a, #logo-link {
   padding: 10px 30px;
   margin-top: 40px;
   text-align: justify;
-  background-color: #FFAE03;
+  background-color: var(--color-yellow);
   opacity: 1;
   transform: scale(.9);
-  color: black;
-  box-shadow: 15px 15px 20px black;
+  color: var(--color-charcoal);
+  box-shadow: 15px 15px 20px var(--color-charcoal);
 }
 h5 {
   text-align: center;
-  color: rgb(68, 63, 63);
+  color: var(--color-charcoal);
 }
 
 footer {
-  background-color: #396E94;
+  background-color: var(--color-light-blue2);
   padding: 45px 50px;
   margin-top: 200px; 
 }
@@ -201,13 +215,13 @@ footer p {
 footer a {
   border-radius: 5px;
   padding: 5px 0px;
-  color: #FFAE03;
+  color: var(--color-yellow);
   text-decoration: none;
   text-align: center;
 }
 footer p a:hover {
-  color: #0A014F;
-  background-color: #FFAE03;
+  color: var(--color-dark-blue);
+  background-color: var(--color-yellow);
 }
 
 .social-profiles {
@@ -218,107 +232,10 @@ footer p a:hover {
 
 /* 2nd Page (mywork.html) css styling. */
 
-#hero-msg-2nd {
-  text-align: center;
-  width: 100%;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 125px;
-}
-
-#hero-msg-2nd h4 {
-  color: #FFAE03;
-}
 
 
 
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top: 250px;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 
 
@@ -336,14 +253,11 @@ footer p a:hover {
 /* 3rd Page (aboutme.html) css styling. */
 
 
-#hero-msg-3rd {
+/* #hero-msg-3rd {
   text-align: center;
   width: 100%;
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 125px;
-}
+} */
 
-#hero-msg-3rd h4 {
-  color: #1f1e1e;
-}

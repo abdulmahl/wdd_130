@@ -236,6 +236,112 @@ footer p a:hover {
 
 
 
+/* Color variables */
+:root {
+  --color-dark-blue: #0A014F;
+  --color-yellow: #FFAE03;
+  --color-dark-red: #4F000B;
+  --color-gray: #716969;
+  --color-light-blue1: #1789FC;
+  --color-light-blue2: #396E94;
+  --color-orange: #ffa500;
+  --color-charcoal: #1f1e1e;
+}
+
+/* Grid container. */
+.mywork-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+/* 1st image left grid place. */
+.first-image-box {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+/* First image */
+.first-image {
+  width: 800px;
+  margin-top: 55px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--color-charcoal);
+}
+
+/* 1st message right. */
+.right-msg1 {
+  grid-column: 7/11;
+  grid-row: 1/2;
+  margin: 25px 0px;
+}
+
+/* 2nd image right grid place. */
+.color-block {
+  grid-column: 6/11;
+  grid-row: 2/3;
+}
+
+/* Color-block image (2nd image) */
+.second-image {
+  width: 100%;
+  margin: 75px auto;
+  height: 666px;
+  border-radius: 10px;
+}
+
+/* 2nd message left grid place. */
+.left-msg { 
+  grid-column: 1/5;
+  grid-row: 2/3;
+  margin: 155px 0;
+  padding-left: 25px;
+  background-image: linear-gradient(red, yellow, pink);
+} 
+
+/* 3rd image left grid place. */
+.seo {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+ /* Third image. */
+.third-image {
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--color-charcoal);
+}
+
+  /* 3rd message right. */
+.right-msg2 {
+  grid-column: 6/12;
+  grid-row: 4/5;
+  margin-top: 25px;
+  padding-left: 100px;
+}
+
+/* Bottom message. */
+.bottom-msg {
+  grid-column: 1/12;
+  grid-row: 9/10;
+}
+
+.contact-work {
+  color: var(--color-charcoal);
+}
+
+.contact-work:hover {
+  background-color: var(--color-yellow);
+  color: var(--color-light-blue1);
+}
+
+.bottom-msg {
+  margin-top: 55px;
+  margin-bottom: -105px;
+  background-color: var(--color-light-blue2);
+}
+
+
+
+
 
 
 

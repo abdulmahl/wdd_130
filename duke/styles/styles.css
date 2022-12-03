@@ -392,6 +392,8 @@ footer p a:hover {
   background-color: var(--color-light-blue2);
 }
 
+
+/* Mobile format (mywork.html). */
 @media screen and (max-width: 900px) {
 
   .mywork-grid {

@@ -431,14 +431,9 @@ footer p a:hover {
   .third-image {
     width: 100%;
     display: block;
-    transition: none;
     margin: 0 auto;
   }
 
-  .third-image:hover {
-  opacity: none;
-  transform: none;
-  }
 
   .right-msg2 {
     width: 50%;

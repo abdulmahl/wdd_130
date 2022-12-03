@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lora&family=Roboto+Mono:wght@300&display=swap');
 
-
-
-
 /* Color variables */
 :root {
   --color-dark-blue: #0A014F;
@@ -228,7 +225,7 @@ footer p a:hover {
   padding-left: 40%;
 }
 
-
+/* Mobile screen format (index.html). */
 
 @media screen and (max-width: 999px) {
   #hero, .home-grid {
@@ -264,8 +261,8 @@ footer p a:hover {
     color: var(--color-yellow);
   }
 
-.contactme-bottom {
-  display: none;
+  .contactme-bottom {
+    display: none;
 }
 
   #background {
@@ -292,18 +289,6 @@ footer p a:hover {
 
 
 /* 2nd Page (mywork.html) css styling. */
-
-/* Color variables */
-:root {
-  --color-dark-blue: #0A014F;
-  --color-yellow: #FFAE03;
-  --color-dark-red: #4F000B;
-  --color-gray: #716969;
-  --color-light-blue1: #1789FC;
-  --color-light-blue2: #396E94;
-  --color-orange: #ffa500;
-  --color-charcoal: #1f1e1e;
-}
 
 /* Grid container. */
 .mywork-grid {
@@ -407,6 +392,70 @@ footer p a:hover {
   background-color: var(--color-light-blue2);
 }
 
+@media screen and (max-width: 900px) {
+
+  .mywork-grid {
+    display: block;
+    height: auto;
+  }
+
+  .first-image {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .right-msg1 {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .second-image {
+    width: 80%;
+    height: 366px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .left-msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .third-image {
+    width: 100%;
+    display: block;
+    transition: none;
+    margin: 0 auto;
+  }
+
+  .third-image:hover {
+  opacity: none;
+  transform: none;
+  }
+
+  .right-msg2 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .bottom-msg {
+    display: block;
+    width: 100%;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+
+
+}
 
 
 

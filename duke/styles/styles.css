@@ -230,6 +230,67 @@ footer p a:hover {
 
 
 
+@media screen and (max-width: 999px) {
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
+  nav {
+      flex-direction: column;
+  }
+
+  .social-profiles {
+    margin-right: 50px;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+      color: var(--color-yellow);
+  }
+  #hero {
+      margin-top: 0;
+  }
+  #hero-msg {
+      margin-top: 0;
+  }
+  #hero-msg h4 {
+      display: none;
+  }
+  .home-title {
+      font-size: 25px;
+      color: var(--color-yellow);
+  }
+  .contactme {
+    color: var(--color-yellow);
+  }
+
+.contactme-bottom {
+  display: none;
+}
+
+  #background {
+      display: none;
+  }
+  .home-grid-img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .section-card {
+    display: block;
+    width: 50%;
+    margin-top: 155px;
+    padding-left: 90px;
+    margin-bottom: 60px;
+  }
+
+  footer {
+      margin-top: 25px;
+  }
+}
+
+
 /* 2nd Page (mywork.html) css styling. */
 
 /* Color variables */

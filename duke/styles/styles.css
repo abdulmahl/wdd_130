@@ -261,7 +261,12 @@ footer p a:hover {
   width: 800px;
   margin-top: 55px;
   border-radius: 10px;
+  transition: cubic-bezier(0.6, 0.06, 0.99, 0.333);
   box-shadow: 5px 5px 10px var(--color-charcoal);
+}
+.first-image:hover {
+  opacity: .6;
+  transform: scale(1.1);
 }
 
 /* 1st message right. */
@@ -301,17 +306,23 @@ footer p a:hover {
 }
  /* Third image. */
 .third-image {
+  transition: cubic-bezier(0.6, 0.06, 0.99, 0.333);
   width: 800px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px var(--color-charcoal);
 }
 
+.third-image:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
   /* 3rd message right. */
 .right-msg2 {
-  grid-column: 6/12;
+  grid-column: 7/11;
   grid-row: 4/5;
-  margin-top: 25px;
-  padding-left: 100px;
+  margin: 25px 0px;
+  /* padding-left: 100px; */
 }
 
 /* Bottom message. */
@@ -334,16 +345,6 @@ footer p a:hover {
   margin-bottom: -105px;
   background-color: var(--color-light-blue2);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

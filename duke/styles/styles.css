@@ -456,11 +456,12 @@ footer p a:hover {
 /* 3rd Page (aboutme.html) css styling. */
 
 
-/* #hero-msg-3rd {
-  text-align: center;
-  width: 100%;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 125px;
-} */
+/* Main grid (aboutme). */
+
+.aboutme-grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+}
+
+
 

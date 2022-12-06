@@ -180,7 +180,7 @@ a, #logo-link {
   opacity: .8;
   transform: scale(.9);
   color: var(--color-charcoal);
-  box-shadow: 15px 15px 20px var(--color-charcoal);
+  box-shadow: 15px 15px 20px var(--color-dark-blue);
 
 }
 .message-right {
@@ -193,7 +193,7 @@ a, #logo-link {
   opacity: 1;
   transform: scale(.9);
   color: var(--color-charcoal);
-  box-shadow: 15px 15px 20px var(--color-charcoal);
+  box-shadow: 15px 15px 20px var(--color-dark-blue);
 }
 h5 {
   text-align: center;
@@ -224,6 +224,25 @@ footer p a:hover {
 .social-profiles {
   padding-left: 40%;
 }
+
+.insta:hover {
+  background-color: var(--color-dark-red);
+  border-radius: 150%;
+}
+.bookit:hover {
+  background-color: var(--color-dark-red);
+  border-radius: 100%;
+}
+.tweet:hover {
+  background-color: var(--color-dark-red);
+  border-radius: 100%;
+}
+
+.linkup:hover {
+  background-color: var(--color-dark-red);
+  border-radius: 100%;
+}
+
 
 /* Mobile screen format (index.html). */
 
@@ -306,34 +325,32 @@ footer p a:hover {
 .first-image {
   width: 800px;
   margin-top: 55px;
-  border-radius: 10px;
-  transition: cubic-bezier(0.6, 0.06, 0.99, 0.333);
-  box-shadow: 5px 5px 10px var(--color-charcoal);
+  border: 10px solid #396E94;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
 }
-.first-image:hover {
-  opacity: .6;
-  transform: scale(1.1);
-}
+
 
 /* 1st message right. */
 .right-msg1 {
   grid-column: 7/11;
   grid-row: 1/2;
   margin: 25px 0px;
+  /* padding-bottom: 66px; */
 }
 
 /* 2nd image right grid place. */
 .color-block {
-  grid-column: 6/11;
+  grid-column: 6/10;
   grid-row: 2/3;
 }
 
 /* Color-block image (2nd image) */
 .second-image {
-  width: 100%;
+  width: 111%;
   margin: 75px auto;
   height: 666px;
-  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  border: 10px solid var(--color-light-blue2);
 }
 
 /* 2nd message left grid place. */
@@ -342,7 +359,8 @@ footer p a:hover {
   grid-row: 2/3;
   margin: 155px 0;
   padding-left: 25px;
-  background-image: linear-gradient(red, yellow, pink);
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  background-image: linear-gradient(#396E94, #716969, #FFAE03);
 } 
 
 /* 3rd image left grid place. */
@@ -352,28 +370,23 @@ footer p a:hover {
 }
  /* Third image. */
 .third-image {
-  transition: cubic-bezier(0.6, 0.06, 0.99, 0.333);
   width: 800px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px var(--color-charcoal);
+  border: 10px solid #396E94;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
 }
 
-.third-image:hover {
-  opacity: .6;
-  transform: scale(1.1);
-}
+
 
   /* 3rd message right. */
 .right-msg2 {
   grid-column: 7/11;
   grid-row: 4/5;
   margin: 25px 0px;
-  /* padding-left: 100px; */
 }
 
 /* Bottom message. */
 .bottom-msg {
-  grid-column: 1/12;
+  grid-column: 1/11;
   grid-row: 9/10;
 }
 
@@ -471,12 +484,16 @@ footer p a:hover {
 
 .i-img {
   width: 35rem;
+  margin-top: 5rem;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  border:  10px solid var(--color-light-blue2);
   
 }
 
 .wfr-msg {
   grid-column: 2/5;
   grid-row: 2/3;
+  text-shadow: 1px 1px var(--color-dark-red);
 }
 .aboutme2-img {
   grid-column: 6/10;
@@ -486,12 +503,17 @@ footer p a:hover {
 .ii-img {
   width: 35rem;
   height: 24rem;
-  
+  margin-top: 5rem;
+  margin-left: 65px;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  border: 10px solid var(--color-light-blue2);
 }
 
 .united-msg {
   grid-column: 6/10;
   grid-row: 2/3;
+  margin-left: 65px;
+  text-shadow: 1px 1px var(--color-dark-red);
 }
 
 .aboutme3-img {
@@ -501,12 +523,20 @@ footer p a:hover {
 
 .iii-img {
   width: 31rem;
-  
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  border:  10px solid var(--color-light-blue2);
 }
 
 .bg-msg {
+  margin-top: 23px;
   grid-column: 2/5;
   grid-row: 5/6;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  background-image: linear-gradient(#FFAE03, #716969, #396E94);
+  color: var(--color-charcoal);
+}
+.bg-msg h2 {
+  color: var(--color-yellow);
 }
 
 .aboutme4-img {
@@ -517,11 +547,18 @@ footer p a:hover {
 
 .iiii-img {
   width: 33rem;
-  
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  border: 10px solid var(--color-light-blue2);
 }
 
 .colors-msg {
+  margin-top: 23px;
   grid-column: 6/10;
   grid-row: 5/6;
-
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  color: var(--color-charcoal);
+  background-image: linear-gradient(#716969, #396E94, #FFAE03)
+}
+.colors-msg h2 {
+  color: var(--color-gray);
 }

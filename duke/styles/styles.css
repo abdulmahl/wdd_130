@@ -128,7 +128,7 @@ a, #logo-link {
 }
 .section-card h2 {
   color: var(--color-charcoal);
-   font-family: "Caveat", "Brady Hand", Sans-Serif;
+   font-family: "Caveat", Sans-Serif;
 }
 
 .contactme {

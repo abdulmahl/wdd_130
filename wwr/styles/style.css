@@ -324,7 +324,7 @@ main section img {
 }
 
 
-
+/* Home page mobile formatting */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -366,7 +366,7 @@ main section img {
         margin-top: 25px;
     }
 
-/* Rivers Page Mobile Styling */
+/* Rivers Page Mobile formatting */
     #rivers-hero, .rivers-home-grid {
         display: block;
         height: auto;
@@ -420,4 +420,18 @@ main section img {
     footer {
         margin-top: 25px;
     }
+}
+
+/* Contact us page mobile formatting */
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+}
+
+
+
+
 }

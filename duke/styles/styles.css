@@ -568,9 +568,7 @@ footer p a:hover {
   grid-row: 5/6;
   color: var(--color-charcoal);
 }
-.bg-msg h2 {
-  color: var(--color-yellow);
-}
+
 
 .aboutme4-img {
   grid-column: 6/10;
@@ -606,9 +604,6 @@ h2 {
   color: var(--color-charcoal);
 }
 
-.colors-msg h2 {
-  color: var(--color-dark-red);
-}
 
 
 /* Mobile format (aboutme.html) */

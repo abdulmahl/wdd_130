@@ -486,14 +486,14 @@ footer p a:hover {
 .i-img {
   width: 40rem;
   margin-top: 11rem;
+  margin-left: 10px;
+  border: 5px solid var(--color-light-blue2);
   box-shadow: 5px 5px 10px var(--color-dark-blue);
-  border:  10px solid var(--color-light-blue2);
   transition: transform .6s;  
 }
 
 .i-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
+  transform: scale(.9);
 }
 
 
@@ -504,33 +504,34 @@ footer p a:hover {
 
 .wfr-msg {
   grid-column: 1/5;
+  margin-left: 10px;
   grid-row: 2/3;
   text-shadow: 1px 1px var(--color-dark-red);
 }
+
+
+
 .aboutme2-img {
   grid-column: 6/10;
   grid-row: 1/2;
 }
 
 .ii-img {
-  width: 38rem;
+  width: 44rem;
   height: 26.7rem;
+  border: 5px solid var(--color-light-blue2);
   margin-top: 11rem;
-  margin-left: 60px;
   box-shadow: 5px 5px 10px var(--color-dark-blue);
-  border: 10px solid var(--color-light-blue2);
   transition: .6s;
 }
 
 .ii-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
+  transform: scale(.9);
 }
 
 .united-msg {
   grid-column: 6/10;
   grid-row: 2/3;
-  margin-left: 65px;
   text-shadow: 1px 1px var(--color-dark-red);
 }
 
@@ -540,20 +541,22 @@ footer p a:hover {
 }
 
 .iii-img {
-  width: 39rem;
+  width: 40rem;
+  border: 5px solid var(--color-light-blue2);
+  margin-left: 10px;
   box-shadow: 5px 5px 10px var(--color-dark-blue);
-  border:  10px solid var(--color-light-blue2);
   transition: transform .6s;
 }
 
 .iii-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
+  transform: scale(.9);
 }
 
 .bg-msg {
   margin-top: 44px;
   grid-column: 1/5;
+  margin-left: 10px;
+  text-shadow: 1px 1px var(--color-dark-red);
   grid-row: 5/6;
   color: var(--color-charcoal);
 }
@@ -567,36 +570,36 @@ footer p a:hover {
 }
 
 h2 {
-  text-align: start;
+  text-align: left;
 }
 
 
 .iiii-img {
-  width: 38rem;
+  width: 44rem;
+  border: 5px solid var(--color-light-blue2);
   height: 26.4rem;
-  padding-left: 106px;
   transition: transform .6s;
+  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  margin: 1px 0px;
 
 }
 
 .iiii-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
+  transform: scale(.9);
 }
 
 .colors-msg {
   margin-top: 44px;
   grid-column: 6/10;
+  margin: 48px 0px;
+  text-shadow: 1px 1px var(--color-dark-red);
   grid-row: 5/6;
-  padding-left: 106px;
   color: var(--color-charcoal);
 }
 
 .colors-msg h2 {
   color: var(--color-dark-red);
 }
-
-
 
 
 /* Mobile format (aboutme.html) */

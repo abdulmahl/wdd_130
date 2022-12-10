@@ -479,12 +479,12 @@ footer p a:hover {
 
 
 .aboutme1-img {
-  grid-column: 2/5;
+  grid-column: 1/6;
   grid-row: 1/2;
 }
 
 .i-img {
-  width: 35rem;
+  width: 40rem;
   margin-top: 11rem;
   box-shadow: 5px 5px 10px var(--color-dark-blue);
   border:  10px solid var(--color-light-blue2);
@@ -503,10 +503,9 @@ footer p a:hover {
 }
 
 .wfr-msg {
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 2/3;
   text-shadow: 1px 1px var(--color-dark-red);
-  text-align: center;
 }
 .aboutme2-img {
   grid-column: 6/10;
@@ -514,10 +513,10 @@ footer p a:hover {
 }
 
 .ii-img {
-  width: 33rem;
-  height: 23rem;
+  width: 38rem;
+  height: 26.7rem;
   margin-top: 11rem;
-  margin-left: 65px;
+  margin-left: 60px;
   box-shadow: 5px 5px 10px var(--color-dark-blue);
   border: 10px solid var(--color-light-blue2);
   transition: .6s;
@@ -533,16 +532,15 @@ footer p a:hover {
   grid-row: 2/3;
   margin-left: 65px;
   text-shadow: 1px 1px var(--color-dark-red);
-  text-align: center;
 }
 
 .aboutme3-img {
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 4/5;
 }
 
 .iii-img {
-  width: 31rem;
+  width: 39rem;
   box-shadow: 5px 5px 10px var(--color-dark-blue);
   border:  10px solid var(--color-light-blue2);
   transition: transform .6s;
@@ -555,12 +553,9 @@ footer p a:hover {
 
 .bg-msg {
   margin-top: 44px;
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 5/6;
-  box-shadow: 5px 5px 10px var(--color-dark-blue);
-  background-image: linear-gradient(#FFAE03, #716969, #396E94);
   color: var(--color-charcoal);
-  text-align: center;
 }
 .bg-msg h2 {
   color: var(--color-yellow);
@@ -571,11 +566,15 @@ footer p a:hover {
   grid-row: 4/5;
 }
 
+h2 {
+  text-align: start;
+}
+
 
 .iiii-img {
-  width: 33rem;
-  box-shadow: 5px 5px 10px var(--color-dark-blue);
-  border: 10px solid var(--color-light-blue2);
+  width: 38rem;
+  height: 26.4rem;
+  padding-left: 106px;
   transition: transform .6s;
 
 }
@@ -589,14 +588,12 @@ footer p a:hover {
   margin-top: 44px;
   grid-column: 6/10;
   grid-row: 5/6;
-  box-shadow: 5px 5px 10px var(--color-dark-blue);
+  padding-left: 106px;
   color: var(--color-charcoal);
-  text-align: center;
-  background-image: linear-gradient(#716969, #396E94, #FFAE03)
 }
 
 .colors-msg h2 {
-  color: var(--color-gray);
+  color: var(--color-dark-red);
 }
 
 
